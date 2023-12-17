@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root {
+    --pramryColor :#1f0a3b;
+    --secondaryColot:#86A8CF;
+    --Buttoncolor :#666bb7;
+}
+.verify-account{
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 40vh;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-200px , 20px);
+}
+.verify-account h3 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.verify-account h3 span {
+    color: var(--Buttoncolor);
+}
+.verify-account h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.verify-account form #flag {
+    width: 70px;
+    border: 1.5px solid #cac9c9;
+    padding: 12px 12px;
+    outline: none;
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.verify-account form #number {
+    width: 100;
+    border: 1.5px solid #cac9c9;
+    padding: 12px 12px;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 6px;
+}
+.verify-account form input {
+    margin-bottom: 15px;
+}
+.verify-account form .phone-number #flag:focus {
+    border: 1.5px solid var(--Buttoncolor);
+    transition: all .5s;
+}
+.verify-account form .phone-number #number:focus {
+    border: 1.5px solid var(--Buttoncolor);
+    transition: all .5s;
+}
+.verify-account form .phone-number label {
+    position: absolute;
+    bottom: 2px;
+    top: 185px;
+    left: 140px;
+    font-size: 15px;
+}
+
+.verify-account .btn {
+    width: 85%;
+    padding: 12px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background: var(--Buttoncolor);
+    margin-bottom: 20px;
+}
+.verify-account p a{
+    text-decoration: none;
+    color: var(--Buttoncolor);
+}
+@media (max-width:320px){
+    .verify-account{
+        /* border: 2px solid black; */
+        width: 400px;
+        height: 40vh;
+        text-align: center;
+        padding: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-166px , 20px);
+    }
+}
